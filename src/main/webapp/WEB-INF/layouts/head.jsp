@@ -1,67 +1,11 @@
 <%--
   Created by IntelliJ IDEA.
   User: Administrator
-  Date: 2019/6/5
-  Time: 14:45
+  Date: 2019/7/1
+  Time: 14:56
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-<html>
-<head>
-    <title>hello</title>
-    <link href="bootstrap/plugins/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="bootstrap/plugins/other/css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link href="bootstrap/plugins/other/css/font-icon-style.css" rel="stylesheet">
-    <link href="bootstrap/plugins/other/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-    <link href="bootstrap/plugins/other/css/ui-elements/card.css" rel="stylesheet">
-    <link href="bootstrap/plugins/other/css/style.css" rel="stylesheet">
-    <style type="text/css">
-        nav.side-navbar .avatar {
-            width: 55px;
-            height: 55px;
-        }
-        .img-fluid{max-width:100%;height:auto}
-        .rounded-circle{border-radius:50%}
-        .d-flex {
-            display: -ms-flexbox!important;
-            display: flex!important;
-        }
-        .h4, h4 {
-            font-size: 24px;
-        }
-        .flex-md-row{
-            width: 205px;
-            float: right;
-        }
-        .nav-link {
-            display: block;
-            padding: .40em 1.2em;
-            margin-top: 7px;
-        }
-        .nav-link2{
-            padding-top: 13px;
-        }
-        .menu-btn{
-            padding-top: 14px;
-        }
-        .navbar-expand-lg{
-            width: 100%;
-        }
-        .container-fluid2{
-            width: 100%;
-        }
-        .navbar-header2{
-            float: left;
-        }
-    </style>
-</head>
-<body>
-<!--====================================================
-                         MAIN NAVBAR
-======================================================-->
 <header class="header">
     <nav class="navbar navbar-default navbar-expand-lg ">
         <div class="search-box">
@@ -200,73 +144,3 @@
         </div>
     </nav>
 </header>
-
-<!--***** SIDE NAVBAR *****-->
-<nav class="side-navbar">
-    <div class="sidebar-header d-flex align-items-center">
-        <div class="avatar"><img src="bootstrap/plugins/other/css/img/avatar-5.jpg" alt="..." class="img-fluid rounded-circle"></div>
-        <div class="title">
-            <h1 class="h4">龙柯文</h1>
-        </div>
-    </div>
-    <hr>
-    <!-- Sidebar Navidation Menus-->
-    <ul class="list-unstyled">
-        <li class="active"> <a href="javascript:void(0)"><i class="icon-home"></i>Home</a></li>
-        <li><a href="#apps" aria-expanded="false" data-toggle="collapse"> <i class="icon-interface-windows"></i>Apps </a>
-            <ul id="apps" class="collapse list-unstyled">
-                <li><a href="javascript:void(0)">Calendar</a></li>
-                <li><a href="javascript:void(0)">Email</a></li>
-                <li><a href="javascript:void(0)">Media</a></li>
-                <li><a href="javascript:void(0)">Invoice</a></li>
-            </ul>
-        </li>
-        <li> <a href="javascript:void(0)"> <i class="fa fa-bar-chart"></i>Chart </a></li>
-        <li><a href="#forms" aria-expanded="false" data-toggle="collapse"> <i class="fa fa-building-o"></i>Forms </a>
-            <ul id="forms" class="collapse list-unstyled">
-                <li><a href="javascript:void(0)">Basic Form</a></li>
-                <li><a href="javascript:void(0)">Form Layouts</a></li>
-            </ul>
-        </li>
-        <li> <a href="javascript:void(0)"> <i class="fa fa-map-o"></i>Maps </a></li>
-        <li><a href="#pages" aria-expanded="false" data-toggle="collapse"> <i class="fa fa-file-o"></i>Pages </a>
-            <ul id="pages" class="collapse list-unstyled">
-                <li><a href="javascript:void(0)">FAQ</a></li>
-                <li><a href="javascript:void(0)">Empty</a></li>
-                <li><a href="javascript:void(0)">Gallery</a></li>
-                <li><a href="javascript:void(0)">Log In</a></li>
-                <li><a href="javascript:void(0)">Register</a></li>
-                <li><a href="javascript:void(0)">Search Result</a></li>
-                <li><a href="javascript:void(0)">404</a></li>
-            </ul>
-        </li>
-        <li> <a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
-        <li><a href="#elements" aria-expanded="false" data-toggle="collapse"> <i class="fa fa-globe"></i>UI Elements </a>
-            <ul id="elements" class="collapse list-unstyled">
-                <li><a href="javascript:void(0)">Buttons</a></li>
-                <li><a href="javascript:void(0)">Cards</a></li>
-                <li><a href="javascript:void(0)">Progress Bar</a></li>
-                <li><a href="javascript:void(0)">Timeline</a></li>
-            </ul>
-        </li>
-    </ul><span class="heading">Extras</span>
-    <ul class="list-unstyled">
-        <li> <a href="javascript:void(0)"> <i class="icon-picture"></i>Demo </a></li>
-    </ul>
-</nav>
-
-
-<!--Global Javascript -->
-<script src="bootstrap/plugins/jstree-3.2.1/jquery.min.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/bootstrap-3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/other/css/js/popper/popper.min.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/other/css/js/tether.min.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/other/css/js/jquery.cookie.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/other/css/js/jquery.validate.min.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/other/css/js/chart.min.js" type="text/javascript"></script>
-<script src="bootstrap/plugins/other/css/js/front.js" type="text/javascript"></script>
-<!--Core Javascript -->
-<script src="bootstrap/plugins/other/css/js/mychart.js" type="text/javascript"></script>
-
-</body>
-</html>

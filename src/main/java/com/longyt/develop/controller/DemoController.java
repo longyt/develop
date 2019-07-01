@@ -10,7 +10,13 @@ public class DemoController {
     @RequestMapping(value = "/home")
     String home(Model model){
         model.addAttribute("user","longyt123");
-        return "/index";
+        return "/layouts/main";
+    }
+
+    @RequestMapping(value = "/test")
+    String test(Model model){
+        model.addAttribute("user","longyt123");
+        return "/test";
     }
 
 }
